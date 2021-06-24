@@ -6,9 +6,15 @@ function Welcome({navigation}) {
     return (
         <View>
             <Button
-                title="Sign In"
+                title="Patient Sign In"
                 onPress={() =>
                     navigation.navigate('Patient Sign In')
+                }
+            />
+            <Button
+                title="Hospital Sign In"
+                onPress={() =>
+                    navigation.navigate('Hospital Sign In')
                 }
             />
         </View>

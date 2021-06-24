@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Welcome from "./components/Welcome.jsx";
 import PatientSignIn from "./components/PatientSignIn.jsx";
+import HospitalSignIn from "./components/HospitalSignIn.jsx"
 
 
 const Stack = createStackNavigator();
@@ -14,12 +15,13 @@ export default function App() {
   return (
     <React.Fragment>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Welcome">
+        <Stack.Navigator initialRouteName="Welcome" >
           <Stack.Screen
             name="Welcome"
             component={Welcome}
           />
           <Stack.Screen name="Patient Sign In" component={PatientSignIn} />
+          <Stack.Screen name="Hospital Sign In" component={HospitalSignIn} />
         </Stack.Navigator>
       </NavigationContainer>
     </React.Fragment>
