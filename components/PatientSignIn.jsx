@@ -2,22 +2,27 @@ import React from "react";
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 function PatientSignIn({navigation}) {
-    const [text, onChangeText] = React.useState("Useless Text");
+    const [user, UserName] = React.useState(null);
+    const [password, Password] = React.useState(null);
 
     return (
         <View>
             <Text>Username: </Text>
             <TextInput
                 style={styles.input}
-                onChangeText={onChangeText}
-                value={text}
+                onChangeText={UserName}
+                defaultValue={user}
+                value={user}
             />
             <Text>Password: </Text>
             <TextInput
                 style={styles.input}
-                onChangeText={onChangeText}
-                value={text}
+                onChangeText={Password}
+                value={password}
+                secureTextEntry={true}
+                
             />
+            
             <Button
                 title="Log In"
                 // onPress={() =>
@@ -30,7 +35,7 @@ function PatientSignIn({navigation}) {
 
 const styles = StyleSheet.create({
     input: {
-        height: 30,
+        height: 40,
         margin: 12,
         borderWidth: 1,
         width: 150,
