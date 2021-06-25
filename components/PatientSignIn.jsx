@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
-function PatientSignIn({navigation}) {
+function PatientSignIn({ navigation }) {
     const [user, UserName] = React.useState(null);
     const [password, Password] = React.useState(null);
 
@@ -20,15 +20,23 @@ function PatientSignIn({navigation}) {
                 onChangeText={Password}
                 value={password}
                 secureTextEntry={true}
-                
+
             />
-            
+
             <Button
                 title="Log In"
-                // onPress={() =>
-                //     navigation.navigate('Patient Home')
-                // }
+                onPress={() =>
+                    navigation.navigate('Patient Home')
+                }
             />
+
+            <Button
+                title="Register"
+                onPress={() =>
+                    navigation.navigate('Patient Register')
+                }
+            />
+
         </View>
     );
 }
