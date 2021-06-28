@@ -12,7 +12,10 @@ function PatientHome( {navigation} ) {
     return (
         <React.Fragment>
         <View>
-        <Button icon="menu" labelStyle={{ fontSize: 40 }} style={{width: 36, height: 40, marginTop: 40, marginLeft: 8}} onPress={() => navigation.openDrawer()} />
+        <View style={styles.header}>
+        <Button icon="menu" labelStyle={{ fontSize: 40 }} style={{ marginTop: 50, marginLeft: 8}} color={"black"}  onPress={() => navigation.openDrawer()} />
+        <Text style={{marginTop: 55, textAlign: 'center', fontWeight: 'bold', fontSize: 24, marginLeft: 21}}> Hello, Joshua </Text>
+        </View>
         <View style={styles.container}>
         <Text style={styles.title}>Upcoming Appointments</Text>
         <Text style={styles.title}>Messages</Text>
@@ -33,8 +36,13 @@ const styles = StyleSheet.create({
         fontSize: 18,
     },
     container: {
-        backgroundColor: "#fff",
+        backgroundColor: "#dce8e6",
         height: "100%",
+    },
+    header: {
+        backgroundColor: "#cbe6f6",
+        width: "100%",
+        flexDirection: 'row',
     }
 });
 

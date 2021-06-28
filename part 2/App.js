@@ -10,20 +10,25 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-      <NavigationContainer>
-        <Drawer.Navigator initalRouteName='Patient Home'>
-          <Drawer.Screen name="Patient Home" component={PatientHome} />
-          <Drawer.Screen name="Profile" component={PatientProfile} />
-        </Drawer.Navigator>
-      </NavigationContainer>
+    <NavigationContainer >
+      <Drawer.Navigator initalRouteName='Patient Home' drawerStyle={styles.container} drawerContentOptions={{
+        labelStyle: {
+          color: "black",
+        }
+      }}>
+        <Drawer.Screen name="Patient Home" component={PatientHome} />
+        <Drawer.Screen name="Profile" component={PatientProfile} />
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#cbe6f6',
+    color: "black",
   },
+  screen: {
+    color: "black",
+  }
 });
