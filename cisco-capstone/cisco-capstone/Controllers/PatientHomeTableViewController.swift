@@ -26,6 +26,11 @@ class PatientHomeTableViewController: UITableViewController {
                 self.performSegue(withIdentifier: "firstAppointment", sender: self)
             }
         }
+        if indexPath[0] == 1 {
+            if indexPath[1] == 0 {
+                self.performSegue(withIdentifier: "firstMessage", sender: self)
+            }
+        }
     }
 
     // MARK: - Table view data source
