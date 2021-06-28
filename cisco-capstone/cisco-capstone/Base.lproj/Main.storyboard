@@ -131,7 +131,7 @@
         <!--Home-->
         <scene sceneID="ZTK-UA-OXy">
             <objects>
-                <tableViewController id="Tfp-Zc-fX3" sceneMemberID="viewController">
+                <tableViewController id="Tfp-Zc-fX3" customClass="PatientHomeTableViewController" customModule="cisco_capstone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="62h-Oi-Xm2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -227,10 +227,41 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Home" id="Osg-Be-ma1"/>
+                    <connections>
+                        <segue destination="gdy-q6-tZJ" kind="show" identifier="firstAppointment" id="V8O-Nx-l21"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OvQ-aZ-uRp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2035" y="-392"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="quz-dc-lbX">
+            <objects>
+                <viewController id="gdy-q6-tZJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NGM-9u-P3Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXZ-mh-Zol">
+                                <rect key="frame" x="139" y="464.5" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lUz-o4-PQu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rXZ-mh-Zol" firstAttribute="centerY" secondItem="lUz-o4-PQu" secondAttribute="centerY" id="5RR-FV-qvk"/>
+                            <constraint firstItem="rXZ-mh-Zol" firstAttribute="centerX" secondItem="lUz-o4-PQu" secondAttribute="centerX" id="GAJ-M1-Iqb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SPv-n4-k6r"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NaJ-v7-Zpo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2926" y="-392"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ias-4A-Nvb">
