@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */; };
 		9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */; };
-		9DC1A8F2268A5D8B000877CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F1268A5D8B000877CA /* ViewController.swift */; };
+		9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */; };
 		9DC1A8F5268A5D8B000877CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F3268A5D8B000877CA /* Main.storyboard */; };
 		9DC1A8F7268A5D8D000877CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F6268A5D8D000877CA /* Assets.xcassets */; };
 		9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */; };
+		9DC1A904268A65EC000877CA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A903268A65EC000877CA /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DC1A8F1268A5D8B000877CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9DC1A8F4268A5D8B000877CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DC1A8F6268A5D8D000877CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC1A8F9268A5D8D000877CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DC1A8FB268A5D8D000877CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC1A903268A65EC000877CA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		9DC1A8EC268A5D8B000877CA /* cisco-capstone */ = {
 			isa = PBXGroup;
 			children = (
+				9DC1A907268A6A77000877CA /* Controllers */,
 				9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */,
 				9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */,
-				9DC1A8F1268A5D8B000877CA /* ViewController.swift */,
 				9DC1A8F3268A5D8B000877CA /* Main.storyboard */,
 				9DC1A8F6268A5D8D000877CA /* Assets.xcassets */,
+				9DC1A903268A65EC000877CA /* Colors.xcassets */,
 				9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */,
 				9DC1A8FB268A5D8D000877CA /* Info.plist */,
 			);
 			path = "cisco-capstone";
+			sourceTree = "<group>";
+		};
+		9DC1A907268A6A77000877CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */,
+				9DC1A904268A65EC000877CA /* Colors.xcassets in Resources */,
 				9DC1A8F7268A5D8D000877CA /* Assets.xcassets in Resources */,
 				9DC1A8F5268A5D8B000877CA /* Main.storyboard in Resources */,
 			);
@@ -137,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC1A8F2268A5D8B000877CA /* ViewController.swift in Sources */,
+				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
 				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
 			);
