@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DC1A8D2268A5A14000877CA /* cisco_capstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8D1268A5A14000877CA /* cisco_capstoneApp.swift */; };
-		9DC1A8D4268A5A14000877CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8D3268A5A14000877CA /* ContentView.swift */; };
-		9DC1A8D6268A5A15000877CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8D5268A5A15000877CA /* Assets.xcassets */; };
-		9DC1A8D9268A5A15000877CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8D8268A5A15000877CA /* Preview Assets.xcassets */; };
+		9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */; };
+		9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */; };
+		9DC1A8F2268A5D8B000877CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F1268A5D8B000877CA /* ViewController.swift */; };
+		9DC1A8F5268A5D8B000877CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F3268A5D8B000877CA /* Main.storyboard */; };
+		9DC1A8F7268A5D8D000877CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F6268A5D8D000877CA /* Assets.xcassets */; };
+		9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9DC1A8CE268A5A14000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DC1A8D1268A5A14000877CA /* cisco_capstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cisco_capstoneApp.swift; sourceTree = "<group>"; };
-		9DC1A8D3268A5A14000877CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9DC1A8D5268A5A15000877CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DC1A8D8268A5A15000877CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9DC1A8DA268A5A15000877CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DC1A8F1268A5D8B000877CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DC1A8F4268A5D8B000877CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC1A8F6268A5D8D000877CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC1A8F9268A5D8D000877CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC1A8FB268A5D8D000877CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9DC1A8CB268A5A14000877CA /* Frameworks */ = {
+		9DC1A8E7268A5D8B000877CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,52 +37,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DC1A8C5268A5A14000877CA = {
+		9DC1A8E1268A5D8B000877CA = {
 			isa = PBXGroup;
 			children = (
-				9DC1A8D0268A5A14000877CA /* cisco-capstone */,
-				9DC1A8CF268A5A14000877CA /* Products */,
+				9DC1A8EC268A5D8B000877CA /* cisco-capstone */,
+				9DC1A8EB268A5D8B000877CA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9DC1A8CF268A5A14000877CA /* Products */ = {
+		9DC1A8EB268A5D8B000877CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DC1A8CE268A5A14000877CA /* cisco-capstone.app */,
+				9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9DC1A8D0268A5A14000877CA /* cisco-capstone */ = {
+		9DC1A8EC268A5D8B000877CA /* cisco-capstone */ = {
 			isa = PBXGroup;
 			children = (
-				9DC1A8D1268A5A14000877CA /* cisco_capstoneApp.swift */,
-				9DC1A8D3268A5A14000877CA /* ContentView.swift */,
-				9DC1A8D5268A5A15000877CA /* Assets.xcassets */,
-				9DC1A8DA268A5A15000877CA /* Info.plist */,
-				9DC1A8D7268A5A15000877CA /* Preview Content */,
+				9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */,
+				9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */,
+				9DC1A8F1268A5D8B000877CA /* ViewController.swift */,
+				9DC1A8F3268A5D8B000877CA /* Main.storyboard */,
+				9DC1A8F6268A5D8D000877CA /* Assets.xcassets */,
+				9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */,
+				9DC1A8FB268A5D8D000877CA /* Info.plist */,
 			);
 			path = "cisco-capstone";
-			sourceTree = "<group>";
-		};
-		9DC1A8D7268A5A15000877CA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9DC1A8D8268A5A15000877CA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DC1A8CD268A5A14000877CA /* cisco-capstone */ = {
+		9DC1A8E9268A5D8B000877CA /* cisco-capstone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DC1A8DD268A5A15000877CA /* Build configuration list for PBXNativeTarget "cisco-capstone" */;
+			buildConfigurationList = 9DC1A8FE268A5D8D000877CA /* Build configuration list for PBXNativeTarget "cisco-capstone" */;
 			buildPhases = (
-				9DC1A8CA268A5A14000877CA /* Sources */,
-				9DC1A8CB268A5A14000877CA /* Frameworks */,
-				9DC1A8CC268A5A14000877CA /* Resources */,
+				9DC1A8E6268A5D8B000877CA /* Sources */,
+				9DC1A8E7268A5D8B000877CA /* Frameworks */,
+				9DC1A8E8268A5D8B000877CA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -86,24 +84,24 @@
 			);
 			name = "cisco-capstone";
 			productName = "cisco-capstone";
-			productReference = 9DC1A8CE268A5A14000877CA /* cisco-capstone.app */;
+			productReference = 9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9DC1A8C6268A5A14000877CA /* Project object */ = {
+		9DC1A8E2268A5D8B000877CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					9DC1A8CD268A5A14000877CA = {
+					9DC1A8E9268A5D8B000877CA = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 9DC1A8C9268A5A14000877CA /* Build configuration list for PBXProject "cisco-capstone" */;
+			buildConfigurationList = 9DC1A8E5268A5D8B000877CA /* Build configuration list for PBXProject "cisco-capstone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +109,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 9DC1A8C5268A5A14000877CA;
-			productRefGroup = 9DC1A8CF268A5A14000877CA /* Products */;
+			mainGroup = 9DC1A8E1268A5D8B000877CA;
+			productRefGroup = 9DC1A8EB268A5D8B000877CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DC1A8CD268A5A14000877CA /* cisco-capstone */,
+				9DC1A8E9268A5D8B000877CA /* cisco-capstone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9DC1A8CC268A5A14000877CA /* Resources */ = {
+		9DC1A8E8268A5D8B000877CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC1A8D9268A5A15000877CA /* Preview Assets.xcassets in Resources */,
-				9DC1A8D6268A5A15000877CA /* Assets.xcassets in Resources */,
+				9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */,
+				9DC1A8F7268A5D8D000877CA /* Assets.xcassets in Resources */,
+				9DC1A8F5268A5D8B000877CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9DC1A8CA268A5A14000877CA /* Sources */ = {
+		9DC1A8E6268A5D8B000877CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC1A8D4268A5A14000877CA /* ContentView.swift in Sources */,
-				9DC1A8D2268A5A14000877CA /* cisco_capstoneApp.swift in Sources */,
+				9DC1A8F2268A5D8B000877CA /* ViewController.swift in Sources */,
+				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
+				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		9DC1A8F3268A5D8B000877CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC1A8F4268A5D8B000877CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC1A8F9268A5D8D000877CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		9DC1A8DB268A5A15000877CA /* Debug */ = {
+		9DC1A8FC268A5D8D000877CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		9DC1A8DC268A5A15000877CA /* Release */ = {
+		9DC1A8FD268A5D8D000877CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,17 +281,14 @@
 			};
 			name = Release;
 		};
-		9DC1A8DE268A5A15000877CA /* Debug */ = {
+		9DC1A8FF268A5D8D000877CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"cisco-capstone/Preview Content\"";
 				DEVELOPMENT_TEAM = NNYH6ZLMYG;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "cisco-capstone/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,17 +300,14 @@
 			};
 			name = Debug;
 		};
-		9DC1A8DF268A5A15000877CA /* Release */ = {
+		9DC1A900268A5D8D000877CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"cisco-capstone/Preview Content\"";
 				DEVELOPMENT_TEAM = NNYH6ZLMYG;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "cisco-capstone/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DC1A8C9268A5A14000877CA /* Build configuration list for PBXProject "cisco-capstone" */ = {
+		9DC1A8E5268A5D8B000877CA /* Build configuration list for PBXProject "cisco-capstone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DC1A8DB268A5A15000877CA /* Debug */,
-				9DC1A8DC268A5A15000877CA /* Release */,
+				9DC1A8FC268A5D8D000877CA /* Debug */,
+				9DC1A8FD268A5D8D000877CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DC1A8DD268A5A15000877CA /* Build configuration list for PBXNativeTarget "cisco-capstone" */ = {
+		9DC1A8FE268A5D8D000877CA /* Build configuration list for PBXNativeTarget "cisco-capstone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DC1A8DE268A5A15000877CA /* Debug */,
-				9DC1A8DF268A5A15000877CA /* Release */,
+				9DC1A8FF268A5D8D000877CA /* Debug */,
+				9DC1A900268A5D8D000877CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9DC1A8C6268A5A14000877CA /* Project object */;
+	rootObject = 9DC1A8E2268A5D8B000877CA /* Project object */;
 }
