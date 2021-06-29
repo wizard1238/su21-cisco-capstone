@@ -27,9 +27,11 @@ class PatientHomeTableViewController: UITableViewController {
             }
         }
         if indexPath[0] == 1 {
-            if indexPath[1] == 0 {
                 self.performSegue(withIdentifier: "firstMessage", sender: self)
-            }
+
+        }
+        if indexPath[0] == 2{
+            self.performSegue(withIdentifier: "firstAlert", sender: self)
         }
     }
 
