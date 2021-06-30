@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */; };
 		9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */; };
 		9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */; };
 		9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeTableViewController.swift; sourceTree = "<group>"; };
 		9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +78,15 @@
 			isa = PBXGroup;
 			children = (
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
+<<<<<<< Updated upstream
 				DA218D23268BF72E008724F9 /* ProfileTableViewController.swift */,
+=======
+<<<<<<< HEAD
+				DA218D23268BF72E008724F9 /* ProfileTableViewController.swift */,
+=======
+				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
+>>>>>>> 9853910997f60dc4c30f6dca8140c03ec21be466
+>>>>>>> Stashed changes
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -152,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */,
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
 				DA218D24268BF72E008724F9 /* ProfileTableViewController.swift in Sources */,

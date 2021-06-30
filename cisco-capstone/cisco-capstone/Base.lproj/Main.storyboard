@@ -128,6 +128,7 @@
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ias-4A-Nvb">
+<<<<<<< Updated upstream
             <objects>
                 <tabBarController id="xpq-Wb-wOp" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="sMz-6j-uEV"/>
@@ -149,6 +150,34 @@
             <objects>
                 <tableViewController id="TWx-q3-YUE" customClass="ProfileTableViewController" customModule="cisco_capstone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ksf-k8-ett">
+=======
+            <objects>
+                <tabBarController id="xpq-Wb-wOp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sMz-6j-uEV"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DAl-Er-AIk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0qn-vz-899" kind="relationship" relationship="viewControllers" id="OT8-Vl-pEJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ctc-pk-GOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="110"/>
+        </scene>
+        <!--Profile Table View Controller-->
+        <scene sceneID="ID8-V1-pcU">
+            <objects>
+<<<<<<< HEAD
+                <tableViewController id="TWx-q3-YUE" customClass="ProfileTableViewController" customModule="cisco_capstone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="Ksf-k8-ett">
+=======
+                <tableViewController id="Tfp-Zc-fX3" customClass="PatientHomeTableViewController" customModule="cisco_capstone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="62h-Oi-Xm2">
+>>>>>>> 9853910997f60dc4c30f6dca8140c03ec21be466
+>>>>>>> Stashed changes
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -487,10 +516,73 @@
                             <outlet property="delegate" destination="3JW-qO-JXf" id="f1e-fU-paU"/>
                         </connections>
                     </tableView>
+<<<<<<< Updated upstream
                     <navigationItem key="navigationItem" id="XNJ-aZ-tBq"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gb-v4-6xv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="MEP-RF-naI" userLabel="Exit" sceneMemberID="exit"/>
+=======
+<<<<<<< HEAD
+                    <navigationItem key="navigationItem" id="XNJ-aZ-tBq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0gb-v4-6xv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="MEP-RF-naI" userLabel="Exit" sceneMemberID="exit"/>
+=======
+                    <tabBarItem key="tabBarItem" title="Home" id="Osg-Be-ma1"/>
+                    <connections>
+                        <segue destination="gdy-q6-tZJ" kind="show" identifier="firstAppointment" id="V8O-Nx-l21"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OvQ-aZ-uRp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2035" y="-392"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="quz-dc-lbX">
+            <objects>
+                <viewController id="gdy-q6-tZJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NGM-9u-P3Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXZ-mh-Zol">
+                                <rect key="frame" x="139" y="464.5" width="136" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lUz-o4-PQu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rXZ-mh-Zol" firstAttribute="centerY" secondItem="lUz-o4-PQu" secondAttribute="centerY" id="5RR-FV-qvk"/>
+                            <constraint firstItem="rXZ-mh-Zol" firstAttribute="centerX" secondItem="lUz-o4-PQu" secondAttribute="centerX" id="GAJ-M1-Iqb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SPv-n4-k6r"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NaJ-v7-Zpo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2926" y="-392"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ias-4A-Nvb">
+            <objects>
+                <tabBarController id="xpq-Wb-wOp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="sMz-6j-uEV"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DAl-Er-AIk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Tfp-Zc-fX3" kind="relationship" relationship="viewControllers" id="gd1-xH-tlD"/>
+                        <segue destination="KRN-Fu-OPU" kind="relationship" relationship="viewControllers" id="byZ-NI-dLM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ctc-pk-GOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+>>>>>>> 9853910997f60dc4c30f6dca8140c03ec21be466
+>>>>>>> Stashed changes
             </objects>
             <point key="canvasLocation" x="2569.5652173913045" y="1035.9375"/>
         </scene>
