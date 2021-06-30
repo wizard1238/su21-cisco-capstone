@@ -14,6 +14,7 @@
 		9DC1A8F7268A5D8D000877CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F6268A5D8D000877CA /* Assets.xcassets */; };
 		9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */; };
 		9DC1A904268A65EC000877CA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A903268A65EC000877CA /* Colors.xcassets */; };
+		DA218D24268BF72E008724F9 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA218D23268BF72E008724F9 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9DC1A8F9268A5D8D000877CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DC1A8FB268A5D8D000877CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC1A903268A65EC000877CA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DA218D23268BF72E008724F9 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
+				DA218D23268BF72E008724F9 /* ProfileTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
+				DA218D24268BF72E008724F9 /* ProfileTableViewController.swift in Sources */,
 				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNYH6ZLMYG;
 				INFOPLIST_FILE = "cisco-capstone/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNYH6ZLMYG;
 				INFOPLIST_FILE = "cisco-capstone/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
