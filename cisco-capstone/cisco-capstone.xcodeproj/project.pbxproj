@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D31A8C1268B80F8003B78D4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31A8C0268B80F8003B78D4 /* RegisterViewController.swift */; };
+		9D31A8C4268B822B003B78D4 /* HospitalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31A8C3268B822B003B78D4 /* HospitalProfileViewController.swift */; };
+		9D31E33B268BD31600E1AB00 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31E33A268BD31600E1AB00 /* EditTableViewController.swift */; };
+		9D85AC7D268B88E90032068C /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85AC7C268B88E90032068C /* DoctorsViewController.swift */; };
+		9D85AC80268B95250032068C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85AC7F268B95250032068C /* Extensions.swift */; };
+		9D85AC86268BD24B0032068C /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85AC85268BD24B0032068C /* TestTableViewController.swift */; };
 		9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */; };
 		9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */; };
 		9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */; };
@@ -15,9 +21,16 @@
 		9DC1A8F7268A5D8D000877CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F6268A5D8D000877CA /* Assets.xcassets */; };
 		9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */; };
 		9DC1A904268A65EC000877CA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A903268A65EC000877CA /* Colors.xcassets */; };
+		9DC430D3268B7A81002CA0DB /* HospitalAdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC430D2268B7A81002CA0DB /* HospitalAdminLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D31A8C0268B80F8003B78D4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9D31A8C3268B822B003B78D4 /* HospitalProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalProfileViewController.swift; sourceTree = "<group>"; };
+		9D31E33A268BD31600E1AB00 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
+		9D85AC7C268B88E90032068C /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
+		9D85AC7F268B95250032068C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9D85AC85268BD24B0032068C /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeTableViewController.swift; sourceTree = "<group>"; };
 		9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +41,7 @@
 		9DC1A8F9268A5D8D000877CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DC1A8FB268A5D8D000877CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC1A903268A65EC000877CA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		9DC430D2268B7A81002CA0DB /* HospitalAdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalAdminLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +55,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D31A8C6268B8524003B78D4 /* Hospital */ = {
+			isa = PBXGroup;
+			children = (
+				9D31A8C0268B80F8003B78D4 /* RegisterViewController.swift */,
+				9D31A8C3268B822B003B78D4 /* HospitalProfileViewController.swift */,
+				9DC430D2268B7A81002CA0DB /* HospitalAdminLoginViewController.swift */,
+				9D85AC7C268B88E90032068C /* DoctorsViewController.swift */,
+			);
+			path = Hospital;
+			sourceTree = "<group>";
+		};
 		9DC1A8E1268A5D8B000877CA = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +85,8 @@
 		9DC1A8EC268A5D8B000877CA /* cisco-capstone */ = {
 			isa = PBXGroup;
 			children = (
+				9D85AC85268BD24B0032068C /* TestTableViewController.swift */,
+				9D31E33A268BD31600E1AB00 /* EditTableViewController.swift */,
 				9DC1A907268A6A77000877CA /* Controllers */,
 				9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */,
 				9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */,
@@ -68,6 +95,7 @@
 				9DC1A903268A65EC000877CA /* Colors.xcassets */,
 				9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */,
 				9DC1A8FB268A5D8D000877CA /* Info.plist */,
+				9D85AC7F268B95250032068C /* Extensions.swift */,
 			);
 			path = "cisco-capstone";
 			sourceTree = "<group>";
@@ -75,6 +103,7 @@
 		9DC1A907268A6A77000877CA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9D31A8C6268B8524003B78D4 /* Hospital */,
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
 				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
 			);
@@ -153,7 +182,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */,
+				9D85AC86268BD24B0032068C /* TestTableViewController.swift in Sources */,
+				9D85AC7D268B88E90032068C /* DoctorsViewController.swift in Sources */,
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
+				9DC430D3268B7A81002CA0DB /* HospitalAdminLoginViewController.swift in Sources */,
+				9D31A8C4268B822B003B78D4 /* HospitalProfileViewController.swift in Sources */,
+				9D31E33B268BD31600E1AB00 /* EditTableViewController.swift in Sources */,
+				9D85AC80268B95250032068C /* Extensions.swift in Sources */,
+				9D31A8C1268B80F8003B78D4 /* RegisterViewController.swift in Sources */,
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
 				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
 			);
@@ -305,7 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNYH6ZLMYG;
 				INFOPLIST_FILE = "cisco-capstone/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNYH6ZLMYG;
 				INFOPLIST_FILE = "cisco-capstone/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
