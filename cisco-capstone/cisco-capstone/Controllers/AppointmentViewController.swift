@@ -22,7 +22,7 @@ class AppointmentViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //index path [0, 0]
         Swift.print("Hello")
-        if indexPath[0] == 0 {
+        if indexPath[1] == 4 {
             //if indexPath[1] == 0 {
             self.performSegue(withIdentifier: "doctorProfileApp", sender: self)
             Swift.print("Hello")
