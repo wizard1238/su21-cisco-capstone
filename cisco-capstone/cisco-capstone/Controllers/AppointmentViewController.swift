@@ -1,13 +1,13 @@
 //
-//  PatientHomeTableViewController.swift
+//  AppointmentViewController.swift
 //  cisco-capstone
 //
-//  Created by Jeremy Tow on 6/28/21.
+//  Created by Joshua Yang on 6/29/21.
 //
 
 import UIKit
 
-class PatientHomeTableViewController: UITableViewController {
+class AppointmentViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,23 +21,19 @@ class PatientHomeTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //index path [0, 0]
-        if indexPath[0] == 0 {
+        Swift.print("Hello")
+        if indexPath[1] == 4 {
             //if indexPath[1] == 0 {
-                self.performSegue(withIdentifier: "firstAppointment", sender: self)
+            self.performSegue(withIdentifier: "doctorProfileApp", sender: self)
+            Swift.print("Hello")
             //}
         }
-        if indexPath[0] == 1 {
-                self.performSegue(withIdentifier: "firstMessage", sender: self)
-
-        }
-        if indexPath[0] == 2{
-            self.performSegue(withIdentifier: "firstAlert", sender: self)
-        }
+        
     }
 
     // MARK: - Table view data source
 
-
+    
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -65,7 +61,7 @@ class PatientHomeTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
