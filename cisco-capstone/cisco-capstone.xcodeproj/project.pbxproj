@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95E1CC57268C269600498282 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1CC56268C269600498282 /* AppointmentViewController.swift */; };
+		95AB3641268C32BA00C94266 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB3640268C32BA00C94266 /* AppointmentViewController.swift */; };
 		9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */; };
 		9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */; };
 		9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95AB3640268C32BA00C94266 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		95E1CC52268C262E00498282 /* cisco-capstone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cisco-capstone-Bridging-Header.h"; sourceTree = "<group>"; };
-		95E1CC56268C269600498282 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
 		9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeTableViewController.swift; sourceTree = "<group>"; };
 		9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
 				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
 				95E1CC52268C262E00498282 /* cisco-capstone-Bridging-Header.h */,
-				95E1CC56268C269600498282 /* AppointmentViewController.swift */,
+				95AB3640268C32BA00C94266 /* AppointmentViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 				9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */,
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
-				95E1CC57268C269600498282 /* AppointmentViewController.swift in Sources */,
+				95AB3641268C32BA00C94266 /* AppointmentViewController.swift in Sources */,
 				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
