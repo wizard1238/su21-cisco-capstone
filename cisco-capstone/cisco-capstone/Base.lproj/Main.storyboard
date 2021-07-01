@@ -184,7 +184,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="it0-e5-19d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="yellow1"/>
                         <constraints>
                             <constraint firstItem="I5R-OY-59t" firstAttribute="centerY" secondItem="it0-e5-19d" secondAttribute="centerY" id="hAP-S3-ZFZ"/>
                             <constraint firstItem="I5R-OY-59t" firstAttribute="centerX" secondItem="it0-e5-19d" secondAttribute="centerX" id="uMo-86-DcE"/>
@@ -336,7 +336,7 @@
             <objects>
                 <tableViewController id="Cb3-7E-w8o" customClass="RegisterViewController" customModule="cisco_capstone" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="vhq-Te-d2e">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -3047,7 +3047,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="bsN-1B-FA1"/>
-        <segue reference="R2J-WE-xuY"/>
+        <segue reference="ZKR-l0-QhO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Doctor1" width="1200" height="1200"/>
