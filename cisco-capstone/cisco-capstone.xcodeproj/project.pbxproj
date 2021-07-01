@@ -24,6 +24,7 @@
 		9DED95A0268CDF97004478CB /* Doctor1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED959F268CDF97004478CB /* Doctor1TableViewController.swift */; };
 		9DED95A3268CEDB1004478CB /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95A2268CEDB1004478CB /* DevViewController.swift */; };
 		9DED95AD268D26A5004478CB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95AC268D26A5004478CB /* MessageViewController.swift */; };
+		9DED95B4268D9B9D004478CB /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		9DED95A2268CEDB1004478CB /* DevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevViewController.swift; sourceTree = "<group>"; };
 		9DED95A6268D23E6004478CB /* cisco-capstone-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cisco-capstone-Bridging-Header.h"; sourceTree = "<group>"; };
 		9DED95AC268D26A5004478CB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
 				9DED95AC268D26A5004478CB /* MessageViewController.swift */,
+				9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */,
 			);
 			path = Patients;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				9D85AC7D268B88E90032068C /* DoctorsViewController.swift in Sources */,
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
 				9DED95A0268CDF97004478CB /* Doctor1TableViewController.swift in Sources */,
+				9DED95B4268D9B9D004478CB /* PatientProfileViewController.swift in Sources */,
 				9DC430D3268B7A81002CA0DB /* HospitalAdminLoginViewController.swift in Sources */,
 				9D31A8C4268B822B003B78D4 /* HospitalProfileViewController.swift in Sources */,
 				9D85AC80268B95250032068C /* Extensions.swift in Sources */,
