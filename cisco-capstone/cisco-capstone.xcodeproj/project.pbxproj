@@ -21,11 +21,13 @@
 		9DC1A8FA268A5D8D000877CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F8268A5D8D000877CA /* LaunchScreen.storyboard */; };
 		9DC1A904268A65EC000877CA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC1A903268A65EC000877CA /* Colors.xcassets */; };
 		9DC430D3268B7A81002CA0DB /* HospitalAdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC430D2268B7A81002CA0DB /* HospitalAdminLoginViewController.swift */; };
+		9DED95A0268CDF97004478CB /* Doctor1TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED959F268CDF97004478CB /* Doctor1TableViewController.swift */; };
+		9DED95A3268CEDB1004478CB /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95A2268CEDB1004478CB /* DevViewController.swift */; };
+		9DED95AD268D26A5004478CB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95AC268D26A5004478CB /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95AB3640268C32BA00C94266 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
-		95E1CC52268C262E00498282 /* cisco-capstone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cisco-capstone-Bridging-Header.h"; sourceTree = "<group>"; };
 		9D31A8C0268B80F8003B78D4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		9D31A8C3268B822B003B78D4 /* HospitalProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalProfileViewController.swift; sourceTree = "<group>"; };
 		9D85AC7C268B88E90032068C /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,10 @@
 		9DC1A8FB268A5D8D000877CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC1A903268A65EC000877CA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9DC430D2268B7A81002CA0DB /* HospitalAdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalAdminLoginViewController.swift; sourceTree = "<group>"; };
+		9DED959F268CDF97004478CB /* Doctor1TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor1TableViewController.swift; sourceTree = "<group>"; };
+		9DED95A2268CEDB1004478CB /* DevViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevViewController.swift; sourceTree = "<group>"; };
+		9DED95A6268D23E6004478CB /* cisco-capstone-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cisco-capstone-Bridging-Header.h"; sourceTree = "<group>"; };
+		9DED95AC268D26A5004478CB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 		9D31A8C6268B8524003B78D4 /* Hospital */ = {
 			isa = PBXGroup;
 			children = (
+				9DED959D268CDF78004478CB /* Doctor Profiles */,
 				9D31A8C0268B80F8003B78D4 /* RegisterViewController.swift */,
 				9D31A8C3268B822B003B78D4 /* HospitalProfileViewController.swift */,
 				9DC430D2268B7A81002CA0DB /* HospitalAdminLoginViewController.swift */,
@@ -100,13 +107,31 @@
 		9DC1A907268A6A77000877CA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9DED95A6268D23E6004478CB /* cisco-capstone-Bridging-Header.h */,
+				9DED95AB268D268D004478CB /* Patients */,
 				9D31A8C6268B8524003B78D4 /* Hospital */,
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
-				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
-				95E1CC52268C262E00498282 /* cisco-capstone-Bridging-Header.h */,
 				95AB3640268C32BA00C94266 /* AppointmentViewController.swift */,
+				9DED95A2268CEDB1004478CB /* DevViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9DED959D268CDF78004478CB /* Doctor Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				9DED959F268CDF97004478CB /* Doctor1TableViewController.swift */,
+			);
+			path = "Doctor Profiles";
+			sourceTree = "<group>";
+		};
+		9DED95AB268D268D004478CB /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
+				9DED95AC268D26A5004478CB /* MessageViewController.swift */,
+			);
+			path = Patients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DED95A3268CEDB1004478CB /* DevViewController.swift in Sources */,
+				9DED95AD268D26A5004478CB /* MessageViewController.swift in Sources */,
 				9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */,
 				9D85AC7D268B88E90032068C /* DoctorsViewController.swift in Sources */,
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
+				9DED95A0268CDF97004478CB /* Doctor1TableViewController.swift in Sources */,
 				9DC430D3268B7A81002CA0DB /* HospitalAdminLoginViewController.swift in Sources */,
 				9D31A8C4268B822B003B78D4 /* HospitalProfileViewController.swift in Sources */,
 				9D85AC80268B95250032068C /* Extensions.swift in Sources */,

@@ -31,5 +31,18 @@ class DoctorsViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath[1] == 0 {
+            performSegue(withIdentifier: "doctor1", sender: self)
+            tableView.deselectRow(at: indexPath, animated: true)
+        } else if indexPath[1] == 1 {
+            performSegue(withIdentifier: "doctor2", sender: self)
+            tableView.deselectRow(at: indexPath, animated: true)
+        } else if indexPath[1] == 2 {
+            performSegue(withIdentifier: "doctor3", sender: self)
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
 
 }

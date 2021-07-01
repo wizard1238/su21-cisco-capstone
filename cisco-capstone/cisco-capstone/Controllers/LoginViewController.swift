@@ -28,6 +28,6 @@ class LoginViewController: UIViewController {
         hospitalView.layer.cornerRadius = 10
     }
 
-
+    @IBAction func unwindToLogin(for unwindSegue: UIStoryboardSegue) {}
 }
 
