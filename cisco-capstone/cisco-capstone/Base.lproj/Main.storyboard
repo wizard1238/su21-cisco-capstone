@@ -457,6 +457,8 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ifL-xd-GVH">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="yellow0"/>
+                        <color key="barTintColor" name="green2"/>
                     </navigationBar>
                     <connections>
                         <segue destination="QmI-i6-P6e" kind="relationship" relationship="rootViewController" id="jBa-Cb-jCx"/>
@@ -507,7 +509,7 @@
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" name="yellow1"/>
                                                     <constraints>
                                                         <constraint firstItem="13q-52-qCd" firstAttribute="centerY" secondItem="Joq-k3-rxQ" secondAttribute="centerY" id="QDx-al-0Py"/>
                                                         <constraint firstItem="Yvc-xZ-c4P" firstAttribute="leading" secondItem="Joq-k3-rxQ" secondAttribute="centerX" multiplier="0.1" id="UYI-6A-e65"/>
@@ -518,6 +520,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="Joq-k3-rxQ" firstAttribute="top" secondItem="jae-io-WRR" secondAttribute="topMargin" id="DJR-Ok-e9s"/>
                                                 <constraint firstItem="Joq-k3-rxQ" firstAttribute="leading" secondItem="jae-io-WRR" secondAttribute="leadingMargin" id="PAN-0c-crb"/>
@@ -556,7 +559,7 @@
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" name="yellow1"/>
                                                     <constraints>
                                                         <constraint firstItem="r8I-dv-2n7" firstAttribute="centerY" secondItem="lwY-Y5-y2v" secondAttribute="centerY" multiplier="0.5" id="6fF-uu-d8t"/>
                                                         <constraint firstItem="lCB-2P-Uee" firstAttribute="centerY" secondItem="lwY-Y5-y2v" secondAttribute="centerY" multiplier="1.5" id="AgZ-GT-0cE"/>
@@ -567,6 +570,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="lwY-Y5-y2v" firstAttribute="top" secondItem="TbB-Bu-qca" secondAttribute="topMargin" id="1yS-lx-DUR"/>
                                                 <constraint firstItem="lwY-Y5-y2v" firstAttribute="trailing" secondItem="TbB-Bu-qca" secondAttribute="trailingMargin" id="7GD-kN-rrg"/>
@@ -605,7 +609,7 @@
                                                             </constraints>
                                                         </imageView>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" name="yellow1"/>
                                                     <constraints>
                                                         <constraint firstItem="NR8-rD-okR" firstAttribute="centerY" secondItem="zvF-AV-Kqa" secondAttribute="centerY" multiplier="0.5" id="HC2-5Q-dyx"/>
                                                         <constraint firstItem="SYn-bV-7nz" firstAttribute="trailing" secondItem="zvF-AV-Kqa" secondAttribute="centerX" multiplier="2" id="KLa-41-nWY"/>
@@ -623,6 +627,7 @@
                                                 <constraint firstItem="zvF-AV-Kqa" firstAttribute="top" secondItem="DLj-mR-Zgq" secondAttribute="topMargin" id="YxP-ZT-4dZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" name="yellow1"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -657,7 +662,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="V5T-4d-wwC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="yellow1"/>
                         <sections>
                             <tableViewSection id="gDI-IT-mum">
                                 <cells>
@@ -676,6 +681,7 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="Jlr-2h-k4G" firstAttribute="centerY" secondItem="Vaq-6G-oeq" secondAttribute="centerY" id="Ovh-ls-Z6z"/>
                                                 <constraint firstItem="Jlr-2h-k4G" firstAttribute="centerX" secondItem="Vaq-6G-oeq" secondAttribute="centerX" id="T9B-bD-vyF"/>
@@ -696,6 +702,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="SoS-Jz-7Tv" firstAttribute="centerX" secondItem="z79-Jv-3jq" secondAttribute="centerX" id="rJM-Lu-24F"/>
                                                 <constraint firstItem="SoS-Jz-7Tv" firstAttribute="centerY" secondItem="z79-Jv-3jq" secondAttribute="centerY" id="wZJ-B7-jbq"/>
@@ -716,6 +723,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="d7J-f7-BIL" firstAttribute="leading" secondItem="9tB-iM-56j" secondAttribute="leadingMargin" constant="5" id="6TS-JK-GXt"/>
                                                 <constraint firstItem="d7J-f7-BIL" firstAttribute="top" secondItem="9tB-iM-56j" secondAttribute="topMargin" id="NF8-5L-qC4"/>
@@ -736,6 +744,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="ANa-aM-1qz" firstAttribute="leading" secondItem="XlY-lb-hgZ" secondAttribute="leadingMargin" constant="5" id="Fpz-tt-4YB"/>
                                                 <constraint firstItem="ANa-aM-1qz" firstAttribute="top" secondItem="XlY-lb-hgZ" secondAttribute="topMargin" id="TaW-N4-Kfc"/>
@@ -756,6 +765,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="bNH-ob-WCM" firstAttribute="leading" secondItem="Vfk-4P-OzL" secondAttribute="leadingMargin" constant="5" id="REX-4O-1pe"/>
                                                 <constraint firstItem="bNH-ob-WCM" firstAttribute="top" secondItem="Vfk-4P-OzL" secondAttribute="topMargin" id="UQ3-2j-fxE"/>
@@ -776,6 +786,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="rdq-qb-tfZ" firstAttribute="top" secondItem="pTh-tr-3wj" secondAttribute="topMargin" id="1y4-Rq-zoq"/>
                                                 <constraint firstItem="rdq-qb-tfZ" firstAttribute="leading" secondItem="pTh-tr-3wj" secondAttribute="leadingMargin" constant="5" id="Uqm-23-WOT"/>
@@ -796,6 +807,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstItem="oMt-5P-GeE" firstAttribute="top" secondItem="FD1-Na-A2X" secondAttribute="topMargin" id="Aqw-Ng-6UC"/>
                                                 <constraint firstItem="oMt-5P-GeE" firstAttribute="leading" secondItem="FD1-Na-A2X" secondAttribute="leadingMargin" constant="5" id="NuI-on-hGt"/>
@@ -811,13 +823,14 @@
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oG5-zZ-h6h">
                                                     <rect key="frame" x="20" y="11" width="374" height="278"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" name="yellow1"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <color key="textColor" systemColor="labelColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <color key="backgroundColor" name="yellow1"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="oG5-zZ-h6h" secondAttribute="bottom" id="4m1-DU-zBt"/>
                                                 <constraint firstItem="oG5-zZ-h6h" firstAttribute="top" secondItem="4S0-1i-z11" secondAttribute="topMargin" id="MTf-Wf-kvI"/>
@@ -3046,7 +3059,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bsN-1B-FA1"/>
+        <segue reference="RVk-2v-r2R"/>
         <segue reference="ZKR-l0-QhO"/>
     </inferredMetricsTieBreakers>
     <resources>
