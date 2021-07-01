@@ -9,10 +9,22 @@ import UIKit
 
 class HospitalAdminLoginViewController: UIViewController {
 
+    @IBOutlet weak var loginView: UIView!
+    @IBOutlet weak var signInView: UIView!
+    @IBOutlet weak var registerView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        loginView.layer.cornerRadius = 10
+        
+        loginView.layer.shadowColor = UIColor.black.cgColor
+        loginView.layer.shadowOpacity = 1
+        loginView.layer.shadowOffset = .zero
+        loginView.layer.shadowRadius = 5
+        
+        signInView.layer.cornerRadius = 10
+        registerView.layer.cornerRadius = 10
     }
     
 
