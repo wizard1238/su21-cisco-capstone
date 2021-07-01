@@ -25,6 +25,7 @@
 		9DED95A3268CEDB1004478CB /* DevViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95A2268CEDB1004478CB /* DevViewController.swift */; };
 		9DED95AD268D26A5004478CB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95AC268D26A5004478CB /* MessageViewController.swift */; };
 		9DED95B4268D9B9D004478CB /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */; };
+		9DED95B7268DA451004478CB /* CreateAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED95B6268DA451004478CB /* CreateAppointmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		9DED95A6268D23E6004478CB /* cisco-capstone-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cisco-capstone-Bridging-Header.h"; sourceTree = "<group>"; };
 		9DED95AC268D26A5004478CB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
+		9DED95B6268DA451004478CB /* CreateAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppointmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */,
 				9DED95AC268D26A5004478CB /* MessageViewController.swift */,
 				9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */,
+				9DED95B6268DA451004478CB /* CreateAppointmentViewController.swift */,
 			);
 			path = Patients;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
 				95AB3641268C32BA00C94266 /* AppointmentViewController.swift in Sources */,
 				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
+				9DED95B7268DA451004478CB /* CreateAppointmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -88,7 +88,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6u-oQ-I4j">
-                                <rect key="frame" x="138.5" y="840" width="137" height="30"/>
+                                <rect key="frame" x="112.5" y="835.5" width="189" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="I'm a hospital admin">
                                     <color key="titleColor" name="green2"/>
                                 </state>
@@ -842,6 +843,101 @@
             </objects>
             <point key="canvasLocation" x="4006" y="1613"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="NaZ-kD-riX">
+            <objects>
+                <viewController id="lQk-dW-7JF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sNC-Ac-Kcd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hzf-7r-QgQ">
+                                <rect key="frame" x="57" y="300" width="300" height="350"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GkT-1J-nwB">
+                                        <rect key="frame" x="30" y="30" width="240" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJ1-Xz-LzB">
+                                                <rect key="frame" x="61.5" y="16" width="117" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Checkup">
+                                                    <color key="titleColor" name="yellow0"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="green1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="B6t-zr-Lop"/>
+                                            <constraint firstItem="iJ1-Xz-LzB" firstAttribute="centerY" secondItem="GkT-1J-nwB" secondAttribute="centerY" id="I9f-oP-nDw"/>
+                                            <constraint firstAttribute="width" constant="240" id="ORE-oI-kgV"/>
+                                            <constraint firstItem="iJ1-Xz-LzB" firstAttribute="centerX" secondItem="GkT-1J-nwB" secondAttribute="centerX" id="uCH-HY-ZHq"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hkx-TU-gFP">
+                                        <rect key="frame" x="30" y="240" width="240" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cm9-Z3-OPH">
+                                                <rect key="frame" x="47" y="16" width="146" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Emergency">
+                                                    <color key="titleColor" name="yellow0"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="green1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="79b-aR-Z3r"/>
+                                            <constraint firstItem="Cm9-Z3-OPH" firstAttribute="centerX" secondItem="Hkx-TU-gFP" secondAttribute="centerX" id="WIe-7K-RS9"/>
+                                            <constraint firstAttribute="width" constant="240" id="WeZ-l9-Ll0"/>
+                                            <constraint firstItem="Cm9-Z3-OPH" firstAttribute="centerY" secondItem="Hkx-TU-gFP" secondAttribute="centerY" id="hgV-Mz-DGy"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-40-Tlw">
+                                        <rect key="frame" x="30" y="135" width="240" height="80"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jB3-B5-Xas">
+                                                <rect key="frame" x="41.5" y="16" width="157" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <state key="normal" title="Urgent Care">
+                                                    <color key="titleColor" name="yellow0"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" name="green1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="IIE-mn-BC1"/>
+                                            <constraint firstItem="jB3-B5-Xas" firstAttribute="centerY" secondItem="zrZ-40-Tlw" secondAttribute="centerY" id="WjZ-NZ-7Kn"/>
+                                            <constraint firstAttribute="height" constant="80" id="Ybd-1l-p5N"/>
+                                            <constraint firstItem="jB3-B5-Xas" firstAttribute="centerX" secondItem="zrZ-40-Tlw" secondAttribute="centerX" id="xCB-3E-PqT"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" name="green2"/>
+                                <constraints>
+                                    <constraint firstItem="Hkx-TU-gFP" firstAttribute="centerX" secondItem="hzf-7r-QgQ" secondAttribute="centerX" id="1PV-h8-cGo"/>
+                                    <constraint firstItem="Hkx-TU-gFP" firstAttribute="centerY" secondItem="hzf-7r-QgQ" secondAttribute="centerY" multiplier="1.6" id="41S-ep-O9q"/>
+                                    <constraint firstItem="GkT-1J-nwB" firstAttribute="centerX" secondItem="hzf-7r-QgQ" secondAttribute="centerX" id="g4u-bY-NhZ"/>
+                                    <constraint firstAttribute="width" constant="300" id="kaA-6p-hQg"/>
+                                    <constraint firstAttribute="height" constant="350" id="oaK-CO-tec"/>
+                                    <constraint firstItem="jB3-B5-Xas" firstAttribute="centerY" secondItem="hzf-7r-QgQ" secondAttribute="centerY" id="peY-ZL-yz7"/>
+                                    <constraint firstItem="zrZ-40-Tlw" firstAttribute="centerX" secondItem="hzf-7r-QgQ" secondAttribute="centerX" id="vnD-FO-jhU"/>
+                                    <constraint firstItem="GkT-1J-nwB" firstAttribute="centerY" secondItem="hzf-7r-QgQ" secondAttribute="centerY" multiplier="0.4" id="xjM-a1-lbU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YKx-dK-Ox8"/>
+                        <color key="backgroundColor" name="yellow1"/>
+                        <constraints>
+                            <constraint firstItem="hzf-7r-QgQ" firstAttribute="centerY" secondItem="YKx-dK-Ox8" secondAttribute="centerY" id="Ow4-ud-d77"/>
+                            <constraint firstItem="hzf-7r-QgQ" firstAttribute="centerX" secondItem="YKx-dK-Ox8" secondAttribute="centerX" id="vYM-e4-Mea"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RoD-Ne-XEO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yht-jc-hj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="-1098"/>
+        </scene>
         <!--Home-->
         <scene sceneID="ZTK-UA-OXy">
             <objects>
@@ -1496,6 +1592,9 @@
                         <rightBarButtonItems>
                             <barButtonItem systemItem="add" id="Cmt-3F-5Eq">
                                 <color key="tintColor" name="yellow0"/>
+                                <connections>
+                                    <segue destination="lQk-dW-7JF" kind="show" id="eT4-zs-EiP"/>
+                                </connections>
                             </barButtonItem>
                             <barButtonItem title="Edit" id="7Kp-jK-sFv">
                                 <connections>
