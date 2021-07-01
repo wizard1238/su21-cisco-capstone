@@ -115,7 +115,6 @@
 				9DED95AB268D268D004478CB /* Patients */,
 				9D31A8C6268B8524003B78D4 /* Hospital */,
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
-				95AB3640268C32BA00C94266 /* AppointmentViewController.swift */,
 				9DED95A2268CEDB1004478CB /* DevViewController.swift */,
 			);
 			path = Controllers;
@@ -136,6 +135,7 @@
 				9DED95AC268D26A5004478CB /* MessageViewController.swift */,
 				9DED95B3268D9B9D004478CB /* PatientProfileViewController.swift */,
 				9DED95B6268DA451004478CB /* CreateAppointmentViewController.swift */,
+				95AB3640268C32BA00C94266 /* AppointmentViewController.swift */,
 			);
 			path = Patients;
 			sourceTree = "<group>";
