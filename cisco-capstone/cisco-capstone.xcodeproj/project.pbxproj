@@ -13,6 +13,8 @@
 		9D85AC7D268B88E90032068C /* DoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85AC7C268B88E90032068C /* DoctorsViewController.swift */; };
 		9D85AC80268B95250032068C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85AC7F268B95250032068C /* Extensions.swift */; };
 		9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */; };
+		9DC12927268E18A8004EA52A /* DoctorAppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC12926268E18A8004EA52A /* DoctorAppointmentsViewController.swift */; };
+		9DC1292B268E1C2F004EA52A /* DoctorPatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1292A268E1C2F004EA52A /* DoctorPatientListViewController.swift */; };
 		9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */; };
 		9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */; };
 		9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */; };
@@ -35,6 +37,8 @@
 		9D85AC7C268B88E90032068C /* DoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsViewController.swift; sourceTree = "<group>"; };
 		9D85AC7F268B95250032068C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9D95EBC9268A7D2F000B44FC /* PatientHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeTableViewController.swift; sourceTree = "<group>"; };
+		9DC12926268E18A8004EA52A /* DoctorAppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppointmentsViewController.swift; sourceTree = "<group>"; };
+		9DC1292A268E1C2F004EA52A /* DoctorPatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorPatientListViewController.swift; sourceTree = "<group>"; };
 		9DC1A8EA268A5D8B000877CA /* cisco-capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cisco-capstone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC1A8ED268A5D8B000877CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC1A8EF268A5D8B000877CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 			path = Hospital;
 			sourceTree = "<group>";
 		};
+		9DC12925268E186E004EA52A /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				9DC12926268E18A8004EA52A /* DoctorAppointmentsViewController.swift */,
+				9DC1292A268E1C2F004EA52A /* DoctorPatientListViewController.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
 		9DC1A8E1268A5D8B000877CA = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 			children = (
 				9DED95A6268D23E6004478CB /* cisco-capstone-Bridging-Header.h */,
 				9DED95AB268D268D004478CB /* Patients */,
+				9DC12925268E186E004EA52A /* Doctor */,
 				9D31A8C6268B8524003B78D4 /* Hospital */,
 				9DC1A8F1268A5D8B000877CA /* LoginViewController.swift */,
 				9DED95A2268CEDB1004478CB /* DevViewController.swift */,
@@ -217,6 +231,7 @@
 				9D95EBCA268A7D2F000B44FC /* PatientHomeTableViewController.swift in Sources */,
 				9D85AC7D268B88E90032068C /* DoctorsViewController.swift in Sources */,
 				9DC1A8F2268A5D8B000877CA /* LoginViewController.swift in Sources */,
+				9DC1292B268E1C2F004EA52A /* DoctorPatientListViewController.swift in Sources */,
 				9DED95A0268CDF97004478CB /* Doctor1TableViewController.swift in Sources */,
 				9DED95B4268D9B9D004478CB /* PatientProfileViewController.swift in Sources */,
 				9DC430D3268B7A81002CA0DB /* HospitalAdminLoginViewController.swift in Sources */,
@@ -225,6 +240,7 @@
 				9D31A8C1268B80F8003B78D4 /* RegisterViewController.swift in Sources */,
 				9DC1A8EE268A5D8B000877CA /* AppDelegate.swift in Sources */,
 				95AB3641268C32BA00C94266 /* AppointmentViewController.swift in Sources */,
+				9DC12927268E18A8004EA52A /* DoctorAppointmentsViewController.swift in Sources */,
 				9DC1A8F0268A5D8B000877CA /* SceneDelegate.swift in Sources */,
 				9DED95B7268DA451004478CB /* CreateAppointmentViewController.swift in Sources */,
 			);
