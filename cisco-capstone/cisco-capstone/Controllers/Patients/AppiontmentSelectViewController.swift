@@ -41,9 +41,8 @@ class AppiontmentSelectViewController: UIViewController {
     */
 
     @IBAction func emergencyButtonPressed(_ sender: Any) {
-        if let url = URL(string: "tel://\("123456789")"),
-        UIApplication.shared.canOpenURL(url) {
-        UIApplication.shared.open(url, options: [:], completionHandler: nil)
-        }
+        let alert = UIAlertController(title: "Please Call 911", message: "", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
 }

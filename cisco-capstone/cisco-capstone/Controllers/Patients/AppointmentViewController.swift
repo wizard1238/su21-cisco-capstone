@@ -27,5 +27,11 @@ class AppointmentViewController: UITableViewController {
     }
 
 
-
+    @IBAction func webex(_ sender: Any) {
+        let alert = UIAlertController(title: "Open webex", message: "", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
 }
