@@ -203,6 +203,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oSg-sP-yKV">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="yellow0"/>
                         <color key="barTintColor" name="green2"/>
                     </navigationBar>
                     <connections>
@@ -1105,7 +1106,11 @@
                             <outlet property="delegate" destination="Tfp-Zc-fX3" id="Ygi-WO-JjB"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Home" id="Osg-Be-ma1"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="Osg-Be-ma1"/>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="IeI-l9-HrC"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="l5a-qr-syk" kind="show" identifier="firstMessage" id="kwk-81-csL"/>
                         <segue destination="uqY-1C-mEM" kind="show" identifier="firstAppointment" id="k65-Es-hrQ"/>
@@ -1487,7 +1492,11 @@
         <scene sceneID="Ias-4A-Nvb">
             <objects>
                 <tabBarController id="xpq-Wb-wOp" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="sMz-6j-uEV"/>
+                    <navigationItem key="navigationItem" id="sMz-6j-uEV">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Cmt-3F-5Eq">
+                            <color key="tintColor" name="yellow0"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DAl-Er-AIk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1525,7 +1534,7 @@
                             <constraint firstItem="Si2-vL-ZkR" firstAttribute="centerY" secondItem="Knh-cJ-LK3" secondAttribute="centerY" id="zdK-vi-dHr"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" id="319-Ov-DdM"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="319-Ov-DdM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4aa-dB-mkd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1982,6 +1991,8 @@
         <image name="chat_bubble_received" width="118" height="34"/>
         <image name="chat_bubble_sent" width="118" height="34"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
         <image name="video" catalog="system" width="128" height="83"/>
         <image name="video.fill" catalog="system" width="128" height="82"/>
         <namedColor name="green0">
