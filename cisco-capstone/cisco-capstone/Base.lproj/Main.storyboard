@@ -577,6 +577,7 @@
                                                 <constraint firstItem="WKp-si-NZn" firstAttribute="centerY" secondItem="IiB-AL-bXG" secondAttribute="centerY" id="n8b-jU-MkY"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" name="yellow1"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
